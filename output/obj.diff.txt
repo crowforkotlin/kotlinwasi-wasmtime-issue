@@ -1,0 +1,24 @@
+1,11c1,11
+<   types                                  |        0xb -      0x555 |      1354 bytes | 4 count
+<   imports                                |      0x557 -      0x57c |        37 bytes | 1 count
+<   functions                              |      0x57e -      0x5ed |       111 bytes | 110 count
+<   memories                               |      0x5ef -      0x5f2 |         3 bytes | 1 count
+<   tags                                   |      0x5f4 -      0x5f7 |         3 bytes | 1 count
+<   globals                                |      0x5fb -    0x287cb |    164304 bytes | 5390 count
+<   exports                                |    0x287cd -    0x287f1 |        36 bytes | 3 count
+<   data count                             |    0x287f3 -    0x287f4 |         1 bytes | 1 count
+<   code                                   |    0x287f8 -    0x4122d |    100917 bytes | 110 count
+<   data                                   |    0x41230 -    0x4267f |      5199 bytes | 2 count
+<   custom "sourceMappingURL"              |    0x42692 -    0x426c2 |        48 bytes | 1 count
+---
+>   types                                  |        0xb -      0x4ca |      1215 bytes | 4 count
+>   imports                                |      0x4cc -      0x4f1 |        37 bytes | 1 count
+>   functions                              |      0x4f3 -      0x553 |        96 bytes | 95 count
+>   memories                               |      0x555 -      0x558 |         3 bytes | 1 count
+>   tags                                   |      0x55a -      0x55d |         3 bytes | 1 count
+>   globals                                |      0x560 -     0x1179 |      3097 bytes | 183 count
+>   exports                                |     0x117b -     0x119f |        36 bytes | 3 count
+>   data count                             |     0x11a1 -     0x11a2 |         1 bytes | 1 count
+>   code                                   |     0x11a5 -     0x40e5 |     12096 bytes | 95 count
+>   data                                   |     0x40e8 -     0x5331 |      4681 bytes | 2 count
+>   custom "sourceMappingURL"              |     0x5344 -     0x5374 |        48 bytes | 1 count
