@@ -1,0 +1,11 @@
+  types                                  |        0xb -      0x557 |      1356 bytes | 4 count
+  imports                                |      0x559 -      0x57e |        37 bytes | 1 count
+  functions                              |      0x580 -      0x5f3 |       115 bytes | 114 count
+  memories                               |      0x5f5 -      0x5f8 |         3 bytes | 1 count
+  tags                                   |      0x5fa -      0x5fd |         3 bytes | 1 count
+  globals                                |      0x601 -    0x291b7 |    166838 bytes | 5418 count
+  exports                                |    0x291b9 -    0x291dd |        36 bytes | 3 count
+  data count                             |    0x291df -    0x291e0 |         1 bytes | 1 count
+  code                                   |    0x291e4 -    0x41e1f |    101435 bytes | 114 count
+  data                                   |    0x41e22 -    0x4389e |      6780 bytes | 2 count
+  custom "sourceMappingURL"              |    0x438b1 -    0x438e8 |        55 bytes | 1 count
