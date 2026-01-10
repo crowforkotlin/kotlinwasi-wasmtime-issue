@@ -1,0 +1,28 @@
+
+import { WASI } from 'wasi';
+import { argv, env } from 'node:process';
+import "./custom-formatters.js"
+
+const wasi = new WASI({ version: 'preview1', args: argv, env, });
+
+const fs = await import('node:fs');
+const url = await import('node:url');
+const wasmBuffer = fs.readFileSync(url.fileURLToPath(import.meta.resolve('./wasmline-multiplatform-wasmline-sample-plugin.wasm')));
+const wasmModule = new WebAssembly.Module(wasmBuffer);
+const wasmInstance = new WebAssembly.Instance(wasmModule, wasi.getImportObject());
+
+wasi.initialize(wasmInstance);
+
+const exports = wasmInstance.exports
+
+export {
+    exports as __ALL_EXPORTS,
+
+}
+
+export const {
+    WasmEntry,
+    memory,
+    _initialize
+} = exports
+
